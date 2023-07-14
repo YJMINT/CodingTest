@@ -1,0 +1,8 @@
+const numbers = [1, 2, 3, 4, 5];
+for (i = 0; i < numbers.length; i++) {
+    console.log(numbers[i]);
+}
+console.log(numbers);
+for (const x of numbers) {
+    console.log(x);
+}
